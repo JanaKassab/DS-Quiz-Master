@@ -22,7 +22,7 @@ To set up and play DS Quiz Master locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/DS-Quiz-Master.git
+   git clone[https://github.com/JanaKassab/DS-Quiz-Master.git]
    ```
 
 2. **Navigate to the Project Directory**:
