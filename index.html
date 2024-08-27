@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS Quiz Master</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="quiz-container">
+        <div id="time-container">
+            You have: <span id="time-value"> 20 </span> seconds
+        </div>
+
+        <div id="difficulty-container">
+            <button onclick="startQuiz('easy')">Start Easy Quiz</button>
+            <button onclick="startQuiz('medium')">Start Medium Quiz</button>
+            <button onclick="startQuiz('hard')">Start Hard Quiz</button>
+        </div>
+
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="next-button">Next Question</button>
+        <div id="question-count"></div>
+    </div>
+
+    <div id="result"></div>
+    <div id="leaderBoard"></div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    
+
+</body>
+</html>

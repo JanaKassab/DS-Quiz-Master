@@ -1,0 +1,200 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/abstract-timekeeper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Quiz Container Styles */
+#quiz-container {
+    display: block;
+    text-align: center;
+    background: #121212;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    box-sizing: border-box;
+    color: #ffbb00;
+}
+
+/* Timer Container Styles */
+#time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffbb00;
+    font-weight: bold;
+}
+
+/* Timer Number */
+#time-value {
+    background-color: #ffbb00;
+    color: #021216;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Difficulty Buttons Styles */
+#difficulty-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#difficulty-container button {
+    background-color: #ffbb00;
+    color: #021216;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+    text-align: center;
+}
+
+#difficulty-container button:hover {
+    background-color: #e0a500;
+}
+
+/* Question and Options Styles */
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffbb00;
+}
+
+#options {
+    margin-bottom: 20px;
+}
+
+.option-button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #ffbb00;
+    color: #021216;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.option-button:hover {
+    background-color: #e0a500;
+    transform: scale(1.05);
+}
+
+.option-button.correct {
+    background-color: #2ecc71;
+}
+
+.option-button.incorrect {
+    background-color: #e74c3c;
+}
+
+/* Next Button */
+#next-button {
+    display: none;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ffbb00;
+    color: #021216;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+#next-button:hover {
+    background-color: #e0a500;
+}
+
+/* Result Styles */
+#result {
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    color: #ffbb00;
+    text-align: center;
+    font-weight: bold;
+    background: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+/* Leaderboard Styles */
+#leaderBoard {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding: 30px;
+    background:#121212;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    color: #ffbb00;
+    text-align: left;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Leaderboard Heading */
+#leaderBoard::before {
+    content: "Leaderboard";
+    display: block;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffbb00;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Individual Score Entry Styles */
+.leaderboard-entry {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #121212;
+    color: #ffbb00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.leaderboard-entry:hover {
+    background: #0a0a0a;
+    transform: translateY(-3px);
+}

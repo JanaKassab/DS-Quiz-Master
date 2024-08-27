@@ -1,0 +1,123 @@
+{
+  "easy": [
+    {
+      "question": "What is the time complexity of accessing an element in an array?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "correctAnswer": "O(1)"
+    },
+    {
+      "question": "Which data structure uses LIFO (Last In, First Out) order?",
+      "options": ["Queue", "Stack", "Array", "Linked List"],
+      "correctAnswer": "Stack"
+    },
+    {
+      "question": "What data structure is typically used to implement recursion?",
+      "options": ["Queue", "Stack", "Tree", "Graph"],
+      "correctAnswer": "Stack"
+    },
+    {
+      "question": "Which of the following is a linear data structure?",
+      "options": ["Tree", "Graph", "Stack", "Heap"],
+      "correctAnswer": "Stack"
+    },
+    {
+      "question": "What is the primary operation of a queue data structure?",
+      "options": ["Push", "Pop", "Enqueue", "Dequeue"],
+      "correctAnswer": "Enqueue"
+    },
+    {
+      "question": "Which data structure would you use for implementing a priority queue?",
+      "options": ["Queue", "Heap", "Stack", "Array"],
+      "correctAnswer": "Heap"
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is the primary advantage of a hash table over an array?",
+      "options": [
+        "Faster search times",
+        "More memory usage",
+        "Supports dynamic resizing",
+        "Simpler implementation"
+      ],
+      "correctAnswer": "Faster search times"
+    },
+    {
+      "question": "In a binary search tree, which node can have the largest value?",
+      "options": [
+        "The leftmost node",
+        "The rightmost node",
+        "The root node",
+        "Any node can have the largest value"
+      ],
+      "correctAnswer": "The rightmost node"
+    },
+    {
+      "question": "What is the time complexity of inserting an element into a balanced binary search tree?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "correctAnswer": "O(log n)"
+    },
+    {
+      "question": "Which data structure is used for breadth-first search (BFS) traversal?",
+      "options": ["Queue", "Stack", "Array", "Hash Table"],
+      "correctAnswer": "Queue"
+    },
+    {
+      "question": "What is the space complexity of an adjacency matrix representation of a graph?",
+      "options": ["O(V)", "O(E)", "O(V^2)", "O(E log V)"],
+      "correctAnswer": "O(V^2)"
+    },
+    {
+      "question": "Which algorithm is used to find the shortest path in a weighted graph with non-negative weights?",
+      "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Floyd-Warshall Algorithm",
+        "Kruskal's Algorithm"
+      ],
+      "correctAnswer": "Dijkstra's Algorithm"
+    }
+  ],
+  "hard": [
+    {
+      "question": "What is the space complexity of a recursive solution for calculating Fibonacci numbers?",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n^2)"],
+      "correctAnswer": "O(n)"
+    },
+    {
+      "question": "Which of the following sorting algorithms is not a comparison-based sort?",
+      "options": ["Merge Sort", "Heap Sort", "Quick Sort", "Radix Sort"],
+      "correctAnswer": "Radix Sort"
+    },
+    {
+      "question": "What is the time complexity of the worst-case scenario for quicksort?",
+      "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+      "correctAnswer": "O(n^2)"
+    },
+    {
+      "question": "In a doubly linked list, which pointer is used to traverse the list in reverse?",
+      "options": [
+        "Next pointer",
+        "Previous pointer",
+        "Head pointer",
+        "Tail pointer"
+      ],
+      "correctAnswer": "Previous pointer"
+    },
+    {
+      "question": "What is the worst-case time complexity of inserting a new element into an AVL tree?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+      "correctAnswer": "O(log n)"
+    },
+    {
+      "question": "Which of the following algorithms is used for finding the Minimum Spanning Tree (MST) of a graph?",
+      "options": [
+        "Kruskal's Algorithm",
+        "Dijkstra's Algorithm",
+        "Prim's Algorithm",
+        "A* Search Algorithm"
+      ],
+      "correctAnswer": "Kruskal's Algorithm"
+    }
+  ]
+}
