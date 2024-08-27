@@ -53,7 +53,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or feedback, feel free to reach out:
 
 - **Email**: kassabjana5@gmail.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **GitHub**: https://github.com/JanaKassab
 
 Enjoy playing **DS Quiz Master** and sharpen your data structure skills! 🚀
 
